@@ -1,4 +1,4 @@
-pipeline {
+#pipeline {
   agent {
     node {
       label 'dind'
@@ -109,4 +109,4 @@ fi
       }
     }
   }
-}
+}#
