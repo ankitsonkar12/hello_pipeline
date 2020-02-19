@@ -19,7 +19,7 @@ pipeline{
         stage('docker build')
         {
             steps{
-                sh 'docker build -t ankit199112/ankit3:${buildnumber} .'
+                sh 'docker build -t ankit199112/ankit2:${BUILD_TAG} .'
             }
             
         }
