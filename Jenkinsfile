@@ -35,11 +35,7 @@ pipeline{
 
             }
         }
-        stage('test'){
-            steps {
-                sh 'rake'
-            }
-        }
+        
     }
 
 }
